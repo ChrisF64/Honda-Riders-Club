@@ -79,10 +79,15 @@ main {
 
 /* Hero */
 #hero {
-    height: 400px;
+    height: 350px;
     width: 100%;
     background: url("../images/Hero\ image.jpg") no-repeat center center/cover;
     position: relative;
+}
+
+.hero-inset {
+    height: 200px;
+    vertical-align: centre;
 }
 
 /* Reasons section */
