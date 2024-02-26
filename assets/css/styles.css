@@ -166,7 +166,7 @@ main {
 #photos img {
     width: 100%;
     line-height: 1em;
-    border: 3px solid white;
+    border: 3px solid hsl(214, 6%, 78%);
 }
 
 #photos {
