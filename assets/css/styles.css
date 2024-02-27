@@ -18,7 +18,9 @@ body {
     font-family: 'Barlow', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Barlow';
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -93,85 +95,12 @@ main {
     flex-direction: column;
 }
 
-/* Hero */
-#hero {
+/* Cover image */
+#cover {
     height: 350px;
     width: 100%;
     background: url("../images/Hero\ image.jpg") no-repeat center center/cover;
     position: relative;
-}
-
-.hero-inset {
-    height: 200px;
-    vertical-align: centre;
-}
-
-/* Reasons section */
-#reasons {
-    width: 90%;
-    margin: 20px auto;
-}
-
-#reasons h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 280%;
-}
-
-#benefits-physical>div,
-#benefits-mental>div {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#benefits p {
-    padding: 0 20px;
-}
-
-#benefits hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}
-
-#circle-cover-bg {
-    background: url(../images/reasons-image.webp) no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    /* converts square image to circle */
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
-
-#benefits-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Meetup Times Section */
-#times {
-    background: url(../images/dublin-city.webp) no-repeat center/cover;
-    /* handles responisvity without media query */
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#times div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
-    padding: 15px;
-    text-align: center;
-    /* This will not wrap on screens less than 400px */
-    flex-basis: 200px;
-    flex-grow: 1;
-    border: 2px solid white;
-}
-
-#times h3 {
-   /* Override general H3 color */
-    color: #fafafa;
 }
 
 /* Gallery page */
@@ -183,54 +112,6 @@ main {
 
 #photos {
     line-height: 0;
-}
-
-/* Form */
-#signup {
-    background-image: url("../images/signup-image.webp");
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
-}
-
-#signup-form {
-    color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
-}
-
-#signup-form>h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    padding: 0 5px;
-}
-
-
-.radio-buttons {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px;
-    font-size: 100%;
-    background-color: #454b1b;
-    color: #fafafa;
 }
 
 /* Footer */
@@ -352,20 +233,21 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 
-     /* Gallery */
-     #photos {
+    /* Gallery */
+    #photos {
         column-count: 3;
     }
 }
 
 @media screen and (min-width: 1200px) {
+
     /* Reasons Section */
     #benefits {
         display: flex;
         flex-direction: row;
     }
 
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
@@ -377,11 +259,11 @@ main {
         order: 1;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         align-self: flex-start;
     }
 
-    #benefits-physical > div {
+    #benefits-physical>div {
         align-self: flex-end;
     }
 }
