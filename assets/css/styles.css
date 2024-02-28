@@ -56,7 +56,8 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 /* Nav bar styles with dropdown toggle */
@@ -89,7 +90,7 @@ main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 47px;
+    margin-top: 35px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
@@ -224,13 +225,7 @@ main {
     /* Main content */
     main {
         /* Push main content down to accommodate header */
-        margin-top: 79px;
-    }
-
-    /* Hero */
-    #cover-text {
-        width: 300px;
-        right: 50px;
+        margin-top: 75px;
     }
 
     /* Reasons Section */
@@ -282,7 +277,8 @@ main {
 /* Media Query: Laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+        font-weight: 700;
+        text-transform: uppercase;
     }
 
     /* Gallery */
