@@ -145,6 +145,9 @@ main {
     padding: 0 5px;
 }
 
+#newsletter>h3 {
+    color: #ffffff;
+}
 
 .radio-buttons {
     width: 100%;

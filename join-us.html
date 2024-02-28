@@ -32,7 +32,7 @@
     <main>
         <section id="join">
             <form id="signup-form" method="post" action="https://formdump.codeinstitute.net">
-                <h2>Come join us!</h2>
+                <h2>Join Us!</h2>
                 <label for="first_name">First Name</label>
                 <input type="text" name="first_name" id="first_name" class="text-input" required>
                 <br>
@@ -42,21 +42,25 @@
                 <label for="email_address">Email Address</label>
                 <input type="email" name="email_address" id="email_address" class="text-input" required>
                 <br>
+                <div id="newsletter">
+                    <h3>Newsletter</h3>
+                </div>
+                <br>
                 <div class="radio-buttons">
                     <div>
-                        <label for="road">Road</label>
-                        <input type="radio" name="running_preference" id="road" value="road" required checked>
+                        <label for="weekly">Weekly</label>
+                        <input type="radio" name="frequency" id="weekly" value="weekly" required checked>
                     </div>
                     <div>
-                        <label for="trail">Trail</label>
-                        <input type="radio" name="running_preference" id="trail" value="trail" required>
+                        <label for="monthly">Monthly</label>
+                        <input type="radio" name="frequency" id="monthly" value="monthly" required>
                     </div>
                     <div>
-                        <label for="both">Both</label>
-                        <input type="radio" name="running_preference" id="both" value="both" required>
+                        <label for="both">None</label>
+                        <input type="radio" name="frequency" id="mone" value="none" required>
                     </div>
                 </div>
-                <button type="submit" class="join-button">Let's Run!</button>
+                <button type="submit" class="join-button">Join Us!</button>
             </form>
         </section>
     </main>
