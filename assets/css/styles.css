@@ -103,6 +103,7 @@ main {
 #about_us_p {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+    margin-bottom: 1rem;
     columns: 3;
     font-size: 130%;
 }
