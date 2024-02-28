@@ -152,8 +152,9 @@ main {
 
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(23, 36, 74, 0.6);
     padding: 30px;
+    border-radius: 20px;
 }
 
 #signup-form>h2 {
@@ -311,8 +312,8 @@ main {
     }
 
     .join-button:hover {
-        background-color: #c4c5c6;
-        color: #252525;
+        background-color: #252525 ;
+        color: #c4c5c6;
     }
 }
 
