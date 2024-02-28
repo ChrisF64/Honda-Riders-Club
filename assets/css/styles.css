@@ -96,6 +96,17 @@ main {
     flex-direction: column;
 }
 
+#about_us_heading {
+    margin-left: 1.5rem;
+}
+
+#about_us_p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    columns: 3;
+    font-size: 130%;
+}
+
 /* Cover image */
 #cover {
     height: 350px;
@@ -160,7 +171,7 @@ main {
     padding: 0 5px;
 }
 
-#newsletter>h3 {
+#newsletter>h2 {
     color: #ffffff;
 }
 
@@ -198,7 +209,7 @@ main {
 }
 
 
-/* Media query: large or landscape phones (576px and up) */
+/* Media query: phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
@@ -206,6 +217,12 @@ main {
     }
 }
 
+#about_us_p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    columns: 1;
+    font-size: 110%;
+}
 
 
 /* Media Query: Large or landscape phones (865px and up) */
@@ -244,6 +261,12 @@ main {
         margin-top: 75px;
     }
 
+    #about_us_p {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        columns: 2;
+        font-size: 120%;
+    }
     /* Reasons Section */
     #benefits-physical,
     #benefits-mental {
@@ -295,6 +318,13 @@ main {
     #menu a:hover {
         font-weight: 700;
         text-transform: uppercase;
+    }
+
+    #about_us_p {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        columns: 3;
+        font-size: 130%;
     }
 
     /* Gallery */
