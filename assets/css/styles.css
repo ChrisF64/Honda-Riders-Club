@@ -56,7 +56,7 @@ header a {
 }
 
 .active {
-    font-weight: 700;
+    font-weight: 800;
     text-transform: uppercase;
 }
 
@@ -105,6 +105,20 @@ main {
 }
 
 /* Gallery page */
+#gallery {
+    margin-top: 15px;
+}
+
+#gallery h2 {
+    margin-left: 1em;
+}
+
+#gallery p {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    font-size: 110%;
+}
+
 #photos img {
     width: 100%;
     line-height: 1em;
@@ -163,7 +177,7 @@ main {
     padding: 15px 32px;
     font-size: 100%;
     background-color: #c4c5c6;
-    color: black;
+    color: #252525;
 }
 
 
@@ -192,8 +206,10 @@ main {
     }
 }
 
-/* Media Query: Large or landscape phones (768px and up) */
-@media screen and (min-width: 768px) {
+
+
+/* Media Query: Large or landscape phones (865px and up) */
+@media screen and (min-width: 865px) {
 
     /* Header */
     nav {
@@ -269,8 +285,8 @@ main {
     }
 
     .join-button:hover {
-        background-color: #fafafa;
-        color: #454b1b;
+        background-color: #c4c5c6;
+        color: #252525;
     }
 }
 
