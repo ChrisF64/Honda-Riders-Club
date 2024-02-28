@@ -29,7 +29,7 @@ h3 {
 
 /* Header */
 header {
-    background-color: hsl(214, 6%, 78%);
+    background-color: #c4c5c6;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -62,7 +62,7 @@ header a {
 /* Nav bar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: hsl(214, 6%, 78%);
+    background-color: #c4c5c6;
     padding: 0 1rem;
     left: 0;
     width: 100%;
@@ -107,12 +107,61 @@ main {
 #photos img {
     width: 100%;
     line-height: 1em;
-    border: 3px solid hsl(214, 6%, 78%);
+    border: 3px solid #c4c5c6;
 }
 
 #photos {
     line-height: 0;
 }
+
+/* Form */
+#join {
+    background-image: url("../images/pexels-amar-preciado-15449281.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #c4c5c6;
+    color: black;
+}
+
 
 /* Footer */
 #social-networks {
@@ -121,7 +170,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: hsl(214, 6%, 78%);
+    background-color: #c4c5c6;
 }
 
 #social-networks i {
