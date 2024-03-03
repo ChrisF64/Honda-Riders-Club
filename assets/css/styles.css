@@ -116,7 +116,32 @@ main {
     position: relative;
 }
 
-/* Event Section */
+/* Gallery page */
+#gallery {
+    margin-top: 15px;
+}
+
+#gallery h2 {
+    margin-left: 1em;
+}
+
+#gallery p {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    font-size: 110%;
+}
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+    border: 3px solid #c4c5c6;
+}
+
+#photos {
+    line-height: 0;
+}
+
+/* Event Page */
 #events h2 {
     margin-left: 1em;
 }
@@ -147,31 +172,6 @@ main {
 
 #dates p {
     font-size: 130%;
-}
-
-/* Gallery page */
-#gallery {
-    margin-top: 15px;
-}
-
-#gallery h2 {
-    margin-left: 1em;
-}
-
-#gallery p {
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    font-size: 110%;
-}
-
-#photos img {
-    width: 100%;
-    line-height: 1em;
-    border: 3px solid #c4c5c6;
-}
-
-#photos {
-    line-height: 0;
 }
 
 /* Form */
@@ -304,24 +304,7 @@ main {
         columns: 2;
         font-size: 120%;
     }
-    /* Reasons Section */
-    #benefits-physical,
-    #benefits-mental {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #benefits-physical>div,
-    #benefits-mental>div {
-        width: 75%;
-    }
-
-    #benefits-mental>div {
-        text-align: end;
-        align-self: flex-end;
-    }
-
+    
     /* Gallery */
     #photos {
         column-count: 2;
@@ -367,34 +350,5 @@ main {
     /* Gallery */
     #photos {
         column-count: 3;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-
-    /* Reasons Section */
-    #benefits {
-        display: flex;
-        flex-direction: row;
-    }
-
-    #benefits>div {
-        flex: 1;
-    }
-
-    #benefits-image {
-        order: 0;
-    }
-
-    #benefits-mental {
-        order: 1;
-    }
-
-    #benefits-mental>div {
-        align-self: flex-start;
-    }
-
-    #benefits-physical>div {
-        align-self: flex-end;
     }
 }
