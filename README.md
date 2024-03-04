@@ -18,44 +18,44 @@ The site is fully responsive and can be viewed on desktop, laptop, tablet/iPad, 
 
 ![Nav Bar](media/nav_bar.png)
 
-- __The home page image__
+- __The Home Page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The home page opens with a photograph of motorcycles on a country road, quickly giving the feel of the site to the user. 
+  - This page introduces the user to the club and the eye catching photo pulls the user towards the open road.
 
 ![Home Page](media/landing_page.png)
 
 - __About Us Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The About Us section gives the user an outline of the club, the members, and the activities that take place as a member. 
+  - The user will see the value of becoming a member and should be encouraged to join up. 
 
 ![Club Ethos](media/about_us.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for Honda Riders Club. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
 ![Footer](media/footer.png)
 
 - __Gallery Page__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The gallery page provides the user with member images and gives an insight into the bikes that current members ride. 
+  - This section is valuable to the user as it shows the human aspect of the club, showing people on bikes. 
 
 ![Gallery](media/gallery_page.png)
 
 - __Events Page__
 
   - This page allows the user to see exactly when meetups and rides are scheduled, where they will be located, how long the ride will be in kilometers and the time of day that the rides is scheduled. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will be updated as events change to keep the user up to date. 
 
 ![Meetup Times](media/events_page.png)
 
 - __The Join Us Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page allows the user to join the club and subscribe to the newsletter. The user will be able specify if they want to receive a weekly or monthly newsletter, or choose None if they prefer not to receive. The user will be asked to submit their full name and email address (mandatory) and a nick name (optional) if they prefer to be called something different. 
 
 ![Sign Up](media/join_us.png)
 
