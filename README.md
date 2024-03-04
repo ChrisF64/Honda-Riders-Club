@@ -68,6 +68,8 @@ The site was then run through Lighthouse with particular focus on Accessibility 
 
 ![Lighthouse result](media/lighthouse.png)
 
+Apart from 'schoolboy' errors, no bugs were found during testing.
+
 ### Validator Testing 
 
 - HTML
