@@ -88,18 +88,15 @@ The live link can be found here - https://chrisf64.github.io/Honda-Riders-Club/i
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The text content for the Home page was taken from multiple biker sites and modified to suit this specific site.
+- I loved the airy feel of the Love Running site and wanted to go with a similar feel for my project. The code for the gallery page was taken from Love Running project gallery page. The code was modified to reduce the amount of columns per screen size and to introduce a border on each photo in the gallery.
+- The code for the Join Us page was taken from Love Running project, but was modified to include an extra non-mandatory field, colour change and round corners on the Join Us form.
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/) and the code for footer was copied from Love Running project.
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- All photos used on the home page, gallery page and sign up page are from pexels.com
+- The Honda logo used for the favicon was copied from Wikipedia Honda page, converted to .png file with transparent background in Photoshop and favicon package created on realfavicongenerator.net.
 
