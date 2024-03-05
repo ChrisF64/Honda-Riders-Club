@@ -99,18 +99,24 @@ main {
     flex-direction: column;
 }
 
-#about_us_heading {
+/* #about_us_heading {
     margin-left: 1.5rem;
-}
+} */
 
 #about_us_p {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    margin-bottom: 1rem;
     columns: 3;
+    column-gap: 7%;
     font-size: 130%;
 }
 
+#about-us {
+    margin: 80px;
+
+}
+
+#about-us h2 {
+    margin-left: 30px;
+}
 /* Cover image */
 #cover {
     height: 350px;
@@ -256,13 +262,19 @@ main {
 }
 
 #about_us_p {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    margin-bottom: 1rem;
     columns: 1;
-    font-size: 110%;
+    column-gap: 7%;
+    font-size: 120%;
 }
 
+#about-us {
+    margin: 40px;
+
+}
+
+#about-us h2 {
+    margin-left: 0px;
+}
 
 /* Media Query: Large or landscape phones (865px and up) */
 @media screen and (min-width: 865px) {
@@ -301,13 +313,20 @@ main {
     }
 
     #about_us_p {
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        margin-bottom: 1rem;
         columns: 2;
-        font-size: 120%;
+        column-gap: 8%;
+        font-size: 130%;
     }
     
+    #about-us {
+        margin: 60px;
+    
+    }
+    
+    #about-us h2 {
+        margin-left: 0px;
+    }
+        
     /* Gallery */
     #photos {
         column-count: 2;
@@ -345,12 +364,19 @@ main {
     }
 
     #about_us_p {
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        columns: 3;
+        columns: 2;
+        column-gap: 7%;
         font-size: 130%;
     }
-
+    
+    #about-us {
+margin-left: 35%;    
+    }
+    
+    #about-us h2 {
+        margin-left: 0px;
+    }
+    
     /* Gallery */
     #photos {
         column-count: 3;
