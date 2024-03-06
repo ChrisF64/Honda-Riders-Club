@@ -190,6 +190,7 @@ main {
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+    min-height: 610px;
 }
 
 #signup-form {
@@ -364,13 +365,13 @@ main {
     }
 
     #about_us_p {
-        columns: 2;
+        columns: 3;
         column-gap: 7%;
         font-size: 130%;
     }
     
     #about-us {
-margin-left: 35%;    
+        margin: 8%;
     }
     
     #about-us h2 {
