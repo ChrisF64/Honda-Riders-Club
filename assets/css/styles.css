@@ -99,10 +99,6 @@ main {
     flex-direction: column;
 }
 
-/* #about_us_heading {
-    margin-left: 1.5rem;
-} */
-
 #about_us_p {
     columns: 3;
     column-gap: 7%;
@@ -114,9 +110,6 @@ main {
 
 }
 
-#about-us h2 {
-    margin-left: 30px;
-}
 /* Cover image */
 #cover {
     height: 350px;
@@ -253,6 +246,9 @@ main {
     color: #3a3a3a;
 }
 
+#social-networks i:hover {
+    color:#ffffff;
+}
 
 /* Media query: phones (576px and up) */
 @media screen and (min-width: 576px) {
@@ -265,7 +261,7 @@ main {
 #about_us_p {
     columns: 1;
     column-gap: 7%;
-    font-size: 120%;
+    font-size: 110%;
 }
 
 #about-us {
@@ -371,7 +367,10 @@ main {
     }
     
     #about-us {
-        margin: 8%;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 4%;
+        margin-bottom: 4%;
     }
     
     #about-us h2 {
