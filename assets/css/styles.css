@@ -61,7 +61,6 @@ header a {
     text-transform: uppercase;
     border-bottom: 1px solid #3a3a3a;
     border-top: 1px solid #3a3a3a;
-    
 }
 
 /* Nav bar styles with dropdown toggle */
@@ -100,15 +99,44 @@ main {
     flex-direction: column;
 }
 
+/* About the club */
+#about-us h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 250%;
+}
+
 #about_us_p {
-    columns: 3;
+    columns: 2;
     column-gap: 7%;
     font-size: 130%;
+    margin-top: 20px;
+}
+
+#about_us_p p {
+    padding-bottom: 1em;
 }
 
 #about-us {
     margin: 80px;
+}
 
+/* Membership Timeline */
+#membership-timeline {
+    background: url(/assets/images/Timeline.jpg) no-repeat top center / cover;
+    width: 200px;
+}
+
+#membership-growth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#membership-growth h3 {
+    color: #252525;
+    text-align: center;
+    font-size: 200%;
 }
 
 /* Cover image */
@@ -362,9 +390,10 @@ main {
     }
 
     #about_us_p {
-        columns: 3;
+        columns: 2;
         column-gap: 7%;
         font-size: 130%;
+        width: 65%;
     }
     
     #about-us {
@@ -373,9 +402,28 @@ main {
         margin-top: 4%;
         margin-bottom: 4%;
     }
+    #membership-growth {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35%;
+    }
     
-    #about-us h2 {
-        margin-left: 0px;
+    ##about {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #about > div {
+        flex: 1;
+    }
+   
+    #membership-growth {
+        order: 0;
+    }
+
+    #about_us_p {
+        order: 1;
     }
     
     /* Gallery */
