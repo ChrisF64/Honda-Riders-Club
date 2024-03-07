@@ -124,7 +124,7 @@ main {
 /* Membership Timeline */
 #membership-timeline {
     background: url(/assets/images/Timeline.jpg) no-repeat top center / cover;
-    width: 200px;
+    width: 150px;
 }
 
 #membership-growth {
@@ -406,10 +406,10 @@ main {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 35%;
+        width: 20%;
     }
     
-    ##about {
+    #about {
         display: flex;
         flex-direction: row;
     }
