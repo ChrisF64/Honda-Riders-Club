@@ -49,6 +49,7 @@ header a {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
+    margin-top: 1rem;
 }
 
 #menu>li {
