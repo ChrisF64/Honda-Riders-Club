@@ -100,43 +100,52 @@ main {
 }
 
 /* About the club */
+#about-us {
+    height: 900px;
+    margin: 80px;
+}
+
 #about-us h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 250%;
 }
 
-#about_us_p {
+/* Membership Timeline */
+#left-about {
+    padding-top: 30px;
+    width: 25%;
+    float: left;
+}
+
+#left-about h3 {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #252525;
+    font-size: 200%;
+}
+
+#growth {
+    background: url(../images/Timeline.jpg) no-repeat center top;
+    width: 400px;
+    height: 697px;
+    margin: 0 auto;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 66%;
+    float: right;
+}
+
+#right-about {
     columns: 2;
     column-gap: 7%;
     font-size: 130%;
-    margin-top: 20px;
 }
 
-#about_us_p p {
-    padding-bottom: 1em;
-}
-
-#about-us {
-    margin: 80px;
-}
-
-/* Membership Timeline */
-#membership-timeline {
-    background: url(/assets/images/Timeline.jpg) no-repeat top center / cover;
-    width: 150px;
-}
-
-#membership-growth {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#membership-growth h3 {
-    color: #252525;
-    text-align: center;
-    font-size: 200%;
+#right-about p {
+    padding-bottom: 10px;
 }
 
 /* Cover image */
@@ -287,7 +296,7 @@ main {
     }
 }
 
-#about_us_p {
+#right-about {
     columns: 1;
     column-gap: 7%;
     font-size: 110%;
@@ -296,10 +305,6 @@ main {
 #about-us {
     margin: 40px;
 
-}
-
-#about-us h2 {
-    margin-left: 0px;
 }
 
 /* Media Query: Large or landscape phones (865px and up) */
@@ -338,8 +343,8 @@ main {
         margin-top: 75px;
     }
 
-    #about_us_p {
-        columns: 2;
+    #right-about {
+        columns: 1;
         column-gap: 8%;
         font-size: 130%;
     }
@@ -348,11 +353,7 @@ main {
         margin: 60px;
     
     }
-    
-    #about-us h2 {
-        margin-left: 0px;
-    }
-        
+
     /* Gallery */
     #photos {
         column-count: 2;
@@ -389,7 +390,7 @@ main {
         text-transform: uppercase;
     }
 
-    #about_us_p {
+    #right-about {
         columns: 2;
         column-gap: 7%;
         font-size: 130%;
@@ -402,13 +403,7 @@ main {
         margin-top: 4%;
         margin-bottom: 4%;
     }
-    #membership-growth {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 20%;
-    }
-    
+   
     #about {
         display: flex;
         flex-direction: row;
@@ -418,14 +413,6 @@ main {
         flex: 1;
     }
    
-    #membership-growth {
-        order: 0;
-    }
-
-    #about_us_p {
-        order: 1;
-    }
-    
     /* Gallery */
     #photos {
         column-count: 3;
