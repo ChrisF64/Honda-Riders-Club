@@ -99,8 +99,17 @@ main {
     flex-direction: column;
 }
 
+/* Cover image */
+#cover {
+    height: 350px;
+    width: 100%;
+    background: url("../images/Cover-image.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
 /* Club section */
 #about-us {
+    height: 830px;
     width: 90%;
     margin: 20px auto;
 }
@@ -114,18 +123,7 @@ main {
 #club h3 {
     color: #252525;
     padding-top: 20px;
-    text-align: center;
     font-size: 150%;
-}
-
-#left-about>div,
-#right-about>div {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#about-us p {
-    padding: 0 20px;
 }
 
 #about-us hr {
@@ -133,46 +131,55 @@ main {
     margin: 5px 0;
 }
 
-#right-about {
-    float: right;
+#left-about {
+    padding-top: 10px;
+    float: left;
     width: 33%;
 }
 
-#left-about {
-    float: left;
+#right-about {
+    padding-top: 10px;
+    float: right;
     width: 33%;
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
+    padding: 30px;
+
+}
+
+.left-about-head {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.right-about-head {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 20px;
 }
 
 /* Timeline */
-#center-about {
-    background: url(../images/Timeline.png) no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin: 20px;
+#timeline-container {
+    width: 400px;
+    height: 700px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+#timeline-bg {
+    background: url(../images/Timeline.png) no-repeat top center;
+    height: 100%;
+    margin-bottom: 20px;
     max-width: 360px;
-    max-height: 697px;
-}
-
-#center-about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #c4c5c6;
-    box-shadow: 3px 3px 5px;
-    width: 33%;
-}
-
-/* Cover image */
-#cover {
-    height: 350px;
-    width: 100%;
-    background: url("../images/Cover-image.jpg") no-repeat center center/cover;
-    position: relative;
+    max-height: 797px;
 }
 
 /* Gallery page */
@@ -223,8 +230,9 @@ main {
     border: 2px solid white;
 }
 
-#dates h2, h3 {
-   /* Override general H3 color */
+#dates h2,
+h3 {
+    /* Override general H3 color */
     color: #fafafa;
     margin: 0;
 }
@@ -304,8 +312,10 @@ main {
 }
 
 #social-networks i:hover {
-    color:#ffffff;
+    color: #ffffff;
 }
+
+/* MEDIA QUERIES */
 
 /* Media query: phones (576px and up) */
 @media screen and (min-width: 576px) {
@@ -374,7 +384,7 @@ main {
     }
 
     .join-button:hover {
-        background-color: #252525 ;
+        background-color: #252525;
         color: #c4c5c6;
     }
 }
@@ -383,7 +393,8 @@ main {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
-        border-top: 1px solid #3a3a3a;;
+        border-top: 1px solid #3a3a3a;
+        ;
         text-transform: uppercase;
     }
 
@@ -391,4 +402,32 @@ main {
     #photos {
         column-count: 3;
     }
+}
+
+/* For larger to medium screen size from 1200px and down */
+@media screen and (max-width: 1200px) {
+    #about-us {
+        width: 65%;
+        height: 1500px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #timeline-container {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
 }
