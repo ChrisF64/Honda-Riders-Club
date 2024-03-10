@@ -114,7 +114,7 @@ main {
     margin: 20px auto;
 }
 
-#about-us h2 {
+#welcome {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
@@ -143,13 +143,6 @@ main {
     width: 33%;
 }
 
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-    padding: 30px;
-
-}
-
 .left-about-head {
     width: 60%;
     float: right;
@@ -166,12 +159,17 @@ main {
     margin-bottom: 20px;
 }
 
+.right-about-head p, .left-about-head p {
+    font-size: large;
+}
+
 /* Timeline */
 #timeline-container {
     width: 400px;
     height: 700px;
     padding: 30px;
     margin: 0 auto;
+    align-content: center;
 }
 
 #timeline-bg {
@@ -182,13 +180,10 @@ main {
     max-height: 797px;
 }
 
+
 /* Gallery page */
 #gallery {
-    margin-top: 15px;
-}
-
-#gallery h2 {
-    margin-left: 1em;
+    margin-top: 50px;
 }
 
 #gallery p {
@@ -205,11 +200,13 @@ main {
 
 #photos {
     line-height: 0;
-}
+    column-count: 3;
+    }
 
 /* Event Page */
 #events h2 {
     margin-left: 1em;
+    margin-top: 40px;
 }
 
 #dates {
@@ -252,6 +249,7 @@ h3 {
 }
 
 #signup-form {
+    max-width: 400px;
     color: #ffffff;
     background-color: rgba(23, 36, 74, 0.6);
     padding: 30px;
@@ -303,6 +301,10 @@ h3 {
     justify-content: space-evenly;
     list-style-type: none;
     background-color: #c4c5c6;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 #social-networks i {
@@ -317,14 +319,180 @@ h3 {
 
 /* MEDIA QUERIES */
 
-/* Media query: phones (576px and up) */
-@media screen and (min-width: 576px) {
+
+/* For larger to medium screen size from 1200px and down */
+@media screen and (max-width: 1200px) {
+    #about-us {
+        width: 65%;
+        height: 1500px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #timeline-container {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .left-about-head h3,
+    .right-about-head h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-head p,
+    .right-about-head p {
+        text-align: center;
+        padding: 0 20px;
+        width: 100%;
+        font-size: 150%;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
+
+}
+
+/* Media Query: Laptops and desktops (992px and down) */
+@media screen and (max-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+        border-top: 1px solid #3a3a3a;
+        text-transform: uppercase;
+    }
+
+    #about-us {
+        width: 65%;
+        height: 1500px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .left-about-head h3,
+    .right-about-head h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-head p,
+    .right-about-head p {
+        text-align: center;
+        padding: 0 20px;
+        font-size: 150%;
+    }
+
+    #timeline-container {
+        clear: both;
+        width: 100%;
+        padding: 0;
+    }
+
+    /* Gallery */
     #photos {
         column-count: 2;
-        column-gap: 0;
     }
 }
 
+/* Media Query: Large or landscape phones (865px and down) */
+@media screen and (max-width: 865px) {
+
+    /* Main content */
+
+    main {
+        /* Push main content down to accommodate header */
+        margin-top: 35px;
+    }
+
+    #welcome {
+        font-size: 180%;
+        padding: 20px 0;
+        margin: 0;
+    }
+
+    #about-us {
+        width: 90%;
+        height: 1000px;
+        margin: 0 auto;
+    }
+
+    .left-about-head,
+    .right-about-head {
+        width: inherit;
+        font-size: 80%;
+    }
+
+    .left-about-head h3,
+    .right-about-head h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-head p,
+    .right-about-head p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    /* Gallery */
+    #gallery {
+        margin-top: 20px;
+    }    
+
+    #photos {
+        column-count: 1;
+    }
+
+    #events h2 {
+        margin-top: 15px;
+
+    /* Form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #252525;
+        color: #c4c5c6;
+    }
+}
+}
 /* Media Query: Large or landscape phones (865px and up) */
 @media screen and (min-width: 865px) {
 
@@ -355,10 +523,10 @@ h3 {
         margin: 0 0.5rem;
     }
 
-    /* Main content */
-    main {
-        /* Push main content down to accommodate header */
-        margin-top: 75px;
+    .left-about-head,
+    .right-about-head {
+        width: 100%;
+        font-size: 80%;
     }
 
     /* Gallery */
@@ -387,47 +555,4 @@ h3 {
         background-color: #252525;
         color: #c4c5c6;
     }
-}
-
-/* Media Query: Laptops and desktops (992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
-        border-top: 1px solid #3a3a3a;
-        ;
-        text-transform: uppercase;
-    }
-
-    /* Gallery */
-    #photos {
-        column-count: 3;
-    }
-}
-
-/* For larger to medium screen size from 1200px and down */
-@media screen and (max-width: 1200px) {
-    #about-us {
-        width: 65%;
-        height: 1500px;
-        margin: 0 auto;
-    }
-
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #left-about, #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #timeline-container {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
 }
