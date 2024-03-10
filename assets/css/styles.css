@@ -159,7 +159,8 @@ main {
     margin-bottom: 20px;
 }
 
-.right-about-head p, .left-about-head p {
+.right-about-head p,
+.left-about-head p {
     font-size: large;
 }
 
@@ -201,7 +202,7 @@ main {
 #photos {
     line-height: 0;
     column-count: 3;
-    }
+}
 
 /* Event Page */
 #events h2 {
@@ -462,7 +463,7 @@ h3 {
     /* Gallery */
     #gallery {
         margin-top: 20px;
-    }    
+    }
 
     #photos {
         column-count: 1;
@@ -471,28 +472,29 @@ h3 {
     #events h2 {
         margin-top: 15px;
 
-    /* Form */
-    #signup {
-        background-position: center;
-        position: relative;
-    }
+        /* Form */
+        #signup {
+            background-position: center;
+            position: relative;
+        }
 
-    #signup-form {
-        position: absolute;
-        left: 10%;
-        top: 150px;
-    }
+        #signup-form {
+            position: absolute;
+            left: 10%;
+            top: 150px;
+        }
 
-    .text-input:hover {
-        border-color: #f16c6b;
-    }
+        .text-input:hover {
+            border-color: #f16c6b;
+        }
 
-    .join-button:hover {
-        background-color: #252525;
-        color: #c4c5c6;
+        .join-button:hover {
+            background-color: #252525;
+            color: #c4c5c6;
+        }
     }
 }
-}
+
 /* Media Query: Large or landscape phones (865px and up) */
 @media screen and (min-width: 865px) {
 
@@ -554,5 +556,22 @@ h3 {
     .join-button:hover {
         background-color: #252525;
         color: #c4c5c6;
+    }
+}
+
+/* Media Query: Large or landscape phones (390px and down) */
+@media screen and (max-width: 390px) {
+    #photos {
+        column-count: 1;
+    }
+
+    /* Gallery */
+    #gallery {
+        margin-top: 50px;
+    }
+
+    #events h2 {
+        margin-left: 1em;
+        margin-top: 50px;
     }
 }
