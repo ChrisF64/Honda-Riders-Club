@@ -118,7 +118,7 @@ main {
     font-size: 150%;
 }
 
-#center-about>div,
+#left-about>div,
 #right-about>div {
     line-height: 20px;
     margin-bottom: 20px;
@@ -138,13 +138,18 @@ main {
     width: 33%;
 }
 
+#left-about {
+    float: left;
+    width: 33%;
+}
+
 #center-about {
     width: 33%;
     margin: 0 auto;
 }
 
 /* Timeline */
-#left-about {
+#center-about {
     background: url(../images/Timeline.png) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
@@ -153,13 +158,12 @@ main {
     max-height: 697px;
 }
 
-#left-about {
+#center-about {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #c4c5c6;
     box-shadow: 3px 3px 5px;
-    float: left;
     width: 33%;
 }
 
