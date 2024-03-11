@@ -1,3 +1,8 @@
+# Honda Bikers Club
+
+![Honda Bikers Club Mockup Images](assets/media/responsive.png)
+
+[View the live project here](https://chrisf64.github.io/Honda-Riders-Club/index.html)
 
 ## Introduction
 This website was made to provide information regarding a fictional motorcycle club based out of Dublin, Ireland. The target audience is the bike community of Ireland. 
