@@ -4,34 +4,7 @@
 
 [View the live project here](https://chrisf64.github.io/Honda-Riders-Club/index.html)
 
-## Table of contents
-1. [Introduction](#Introduction)
-2. [UX](#UX)
-    1. [Ideal User Demographic](#Ideal-Users)
-    2. [User Stories](#User-Stories)
-    3. [Development Planes](#Development-Planes)
-    4. [Design](#Design)
-3. [Features](#Features)
-    1. [Design Features](#Design-Features) 
-    2. [Existing Features](#Existing-Features)
-    3. [Features to Implement in the future](#Features-to-Implement-in-the-future)
-4. [Issues and Bugs](#Issues-and-Bugs)
-5. [Technologies Used](#Technologies-Used)
-     1. [Main Languages Used](#Main-Languages-Used)
-     3. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
-6. [Testing](#Testing)
-     1. [Validator testing](#validator-testing)
-7. [Deployment](#Deployment)
-     1. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
-8. [Credits](#Credits)
-     1. [Content](#Content)
-     2. [Media](#Media)
-     3. [Code](#Code)
-9. [Acknowledgements](#Acknowledgements)
-***
-
 ## Introduction
-
 This website was made to provide information regarding a fictional motorcycle club based out of Dublin, Ireland. The target audience is the bike community of Ireland. 
 
 This website was made for the first of five Milestone projects required to complete the Diploma in Software development program at The Code Institute. 
