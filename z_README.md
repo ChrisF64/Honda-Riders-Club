@@ -71,5 +71,20 @@ Using the information from the strategy plane, the identified required features 
 #### Structure
 The information above was then organized in a hierarchical tree structure, a site map, showing how users can navigate through the site with ease and efficiency, with the following results:
 
-
 ![Site Map](assets/media/site-map.png)
+
+#### Skeleton
+Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of [Balsamiq](https://balsamiq.com/).
+
+![Wireframe](assets)
+
+## Features
+### Design Features
+Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
+- The **Header** is across the top of the page and appears on each page for brand recognition.
+- The **Navigation Bar** appears within the header on all pages and is easy. It is then replaced by a hamburger menu.
+- The **Navigation Bar** collapses into a **Hamburger Menu** that, when clicked or tapped, opens a sidebar below the logo which shows the navigation options.
+- The **Footer** is 100% in width and stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab.
+
+### Existing Features
+- **Social Media Icons** - Appearing on every page in the footer, the icons are appropriate representations of the Social Media platforms.
