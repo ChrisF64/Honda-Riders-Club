@@ -82,9 +82,21 @@ Wireframes were made to showcase the appearance of the site pages while keeping 
 ### Design Features
 Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
 - The **Header** is across the top of the page and appears on each page for brand recognition.
-- The **Navigation Bar** appears within the header on all pages and is easy. It is then replaced by a hamburger menu.
-- The **Navigation Bar** collapses into a **Hamburger Menu** that, when clicked or tapped, opens a sidebar below the logo which shows the navigation options.
-- The **Footer** is 100% in width and stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab.
+- The **Navigation Bar** appears within the header on all pages and is easy.<br>
+![Header-Navbar](assets/media/nav_bar.png)
+- On smaller screen sizes, the **Navigation Bar** collapses into a **Hamburger Menu** that, when clicked or tapped, opens a sidebar below the logo which shows the navigation options.
+- The **Footer** is 100% in width and stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab.<br>
+![Footer](assets/media/footer.png)
+- The **Home** page contains a Hero image<br>
+![Hero](assets/media/landing_page.png) 
+- The **Home** page also contains an About section, giving an overview of the club<br>
+![About](assets/media/about-us.png)
+- The **Gallery** page contains photos of bike and events, all supplied by members<br>
+![Gallery](assets/media/gallery.png)
+- The **Events** page allows the user to browse through scheduled events<br>
+![Events](assets/media/events_page.png)
+- The **Join** page contains a form to allow the user to join the club, choose to subscribe to the newsletter either weekly, monthly, or not at all<br>
+![Join](assets/media/join_us.png)
 
 ### Existing Features
 - **Social Media Icons** - Appearing on every page in the footer, the icons are appropriate representations of the Social Media platforms.
@@ -116,15 +128,14 @@ The site was tested for usability and navigation in Chrome, Firefox, Brave and S
 The site was then run through Lighthouse with particular focus on Accessibility where it scored 100% on almost all pages:
 - Index page <br>
 ![Lighthouse results](assets/media/lighthouse-index.png)
-- Gallery page
+- Gallery page<br>
 ![Lighthouse results](assets/media/lighthouse-gallery.png)
-- Events page
+- Events page<br>
 ![Lighthouse results](assets/media/lighthouse-events.png)
-- Join page
+- Join page<br>
 ![Lighthouse results](assets/media/lighthouse-join.png)
 
 ### Validator Testing 
-
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 
@@ -134,7 +145,6 @@ The site was then run through Lighthouse with particular focus on Accessibility 
 
 
 ## Deployment
-
 This project was developed using [GitPod](https://www.gitpod.io/ "Link to GitPod site"), which was then committed and pushed to GitHub using the GitPod terminal.
 
 ### Deploying on GitHub Pages
