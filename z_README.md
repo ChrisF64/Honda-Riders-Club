@@ -76,7 +76,7 @@ The information above was then organized in a hierarchical tree structure, a sit
 #### Skeleton
 Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of [Balsamiq](https://balsamiq.com/).
 
-![Wireframe](assets)
+![Wireframe](assets/media/Wireframe.png)
 
 ## Features
 ### Design Features
