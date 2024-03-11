@@ -114,7 +114,7 @@ The developer ran into several issues during the development of the website, wit
 ## Testing 
 The site was tested for usability and navigation in Chrome, Firefox, Brave and Safari. The site was tested for responsiveness in all four browsers but more specifically in Chrome, using Developer Tools where it resulted in each page behaving as it should when screen sizes were changed.
 The site was then run through Lighthouse with particular focus on Accessibility where it scored 100% on almost all pages:
-- Index page
+- Index page <br>
 ![Lighthouse results](assets/media/lighthouse-index.png)
 - Gallery page
 ![Lighthouse results](assets/media/lighthouse-gallery.png)
