@@ -108,184 +108,18 @@ Wireframes were made to showcase the appearance of the site pages while keeping 
 ## Features
 ### Design Features
 Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
-- The **Header** is across the top of the page. It is not static as this would cover too much of the screen. A back-to-top button was implemented instead so users can access the navigation bar quickly.
-- The **Navigation Bar** is positioned directly below the header. The navigation bar is only used for screen sizes larger than 1200px. It is then replaced by a hamburger menu.
-- The **Navigation Bar** collapses into a **Hamburger Menu** that, when clicked or tapped, opens a sidebar which shows the navigation options.
-- The **Footer** is 100% in width and 40px in height. It stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab. Additionally, each social media link opens a zombie related link on each respective website; eg. the Faceb
-
-<dl>
-    <dt><a href="index.html" target="_blank" alt="Survival Guild Home Page">Home Page</a></dt>
-    <dd>
-        The <em>Home Page</em> is a scrollable page with the main content divided into two columns on larger screens, shifting into a single column on smaller screens.
-        <ul>
-            <li>
-                <em>Introduction</em> - This text-only section introduces the user to the page. 
-            </li>
-            <li>
-                <em>Competition Banner</em> - Covering 100% of the width of the screen, the competition banner is not static and moves with the page. Clicking on the image will bring you directly to the Competition Page.
-            </li>
-            <li>
-                <em>Content</em> - The World News section is a text-only column to the left of the screen on larger screen sizes. Below this is the Twitter Feed, a heading and image only column, which is another column kept to the right of the screen on larger screen sizes. The News Feed section, a text and image column, keeps to the right on larger screen sizes. On smaller screen sizes, each section expands and becomes a single long column. The order from top to bottom is World News, News Feed, and finally the Twitter Feed section. 
-            </li>
-            <li>
-                <em>Back-to-top Button</em> - A Back-to-top button is on the bottom right of the screen, above the footer. This button will bring the user back to the top of the page from any point on the page. 
-            </li>
-        </ul>
-    </dd>
-</dl>
-<dl>
-    <dt><a href="survival-tips.html" target="_blank" alt="Survival Guild - Survival Tips Page">Survival Tips Page</a></dt>
-    <dd>
-        The <em>Survival Tips Page</em> is a scrollable page with the main content laid out in a single column, regardless of screen size.
-        <ul>
-            <li>
-                <em>Introduction</em> - This text-only section introduces the user to the page. 
-            </li>
-            <li>
-                <em>Page Section Buttons</em> - There are three buttons that will bring the user to each of the sections on the page. This allows the user to get to the information they require quicker with less scrolling.
-            </li>
-            <li>
-                <em>Competition Banner</em> - Covering 100% of the width of the screen, the competition banner is not static and moves with the page. Clicking on the image will bring you directly to the Competition Page.
-            </li>
-            <li>
-                <em>Content</em> - The content is made up of <em>text</em>, <em>images</em> and some <em>videos</em> embedded from YouTube. The images and videos change size following the screen size to provide a better user experience.
-            </li>
-            <li>
-                <em>Back-to-top Button</em> - A Back-to-top button is on the bottom right of the screen, above the footer. This button will bring the user back to the top of the page from any point on the page. 
-            </li>
-        </ul>
-    </dd>
-</dl>
-<dl>
-    <dt><a href="camp-setup.html" target="_blank" alt="Survival Guild - Camp Setup Page">Camp Setup Page</a></dt>
-    <dd>
-        The <em>Camp Setup Page</em> has all the same features as the Survival Tips Page, only with fewer videos embedded.
-    </dd>
-</dl>
-<dl>    
-    <dt><a href="infected.html" target="_blank" alt="Survival Guild - The Infected Page">The Infected Page</a></dt>
-    <dd>
-        <em>The Infected Page</em> has all the same features as the Survival Tips Page, but without videos embedded and with only two Page Section Buttons.
-    </dd>
-</dl>
-<dl>
-    <dt><a href="contact.html" target="_blank" alt="Survival Guild - Contact Page">Contact Page</a></dt>
-    <dd>
-        The <em>Contact Page</em> is a scrollable page with two columns of content, which become a single column on smaller screen sizes.
-        <ul>
-            <li>
-                <em>Introduction</em> - This text-only section introduces the user to the page. 
-            </li>
-            <li>
-                <em>Content</em> - The content is made up of <em>text</em>, <em>text input boxes</em> and a <em>map</em> embedded from Google Maps. The telephone number and email have <a> elements that divert the user to their email or phone app, allowing ease of access if they wish to contact the site manager. The map changes size following the screen size to provide a better user experience.
-            </li>
-            <li>
-                <em>Form</em> - The form contains three input boxes for names and email and a text box for the user to enter a message. There is a submit button below these which changes colour when hovered over. Sending a message through this form brings the user to a Thank You Page. 
-            </li>
-        </ul>
-    </dd>
-</dl>
-<dl>    
-    <dt><a href="competition.html" target="_blank" alt="Survival Guild - Competition Page">Competition Page</a></dt>
-    <dd>
-        The <em>Competition Page</em> is a scrollable page with two columns of content, which become a single column on smaller screen sizes.
-        <ul>
-            <li>
-                <em>Introduction</em> - This section has text and one wide image, the same as the competition banner without the link, which introduces the user to the page. 
-            </li>
-            <li>
-                <em>Content</em> - The content is made up of <em>text</em>, <em>text input boxes</em> and a <em>scrollable box</em>, which contains the terms and conditions of the competition, laid out into two columns on larger screens. On smaller screen sizes, the two columns rearrange to make one long column.
-            </li>
-            <li>
-                <em>Form</em> - The form contains four input boxes for names, date of birth and email, and a question and answer using radio buttons to select the correct answer for the competition entry. There is a submit button below these which changes colour when hovered over. Submitting an entry through this form brings the user to a Thank You Page. 
-            </li>
-        </ul>
-    </dd>
-</dl>
-<dl>        
-    <dt><a href="dump-contact.html" target="_blank" alt="Survival Guild - Contact Thank You Page">Contact Thank You Page</a></dt>
-    <dd>
-        The <em>Contact Thank You Page</em> is a single page made to thank the user for contacting the Survival Guild.
-        <ul>
-            <li>
-                <em>Content</em> - The content is made up of <em>text</em> and an <em>image</em>, which thanks the user for submitting a message on the Contact Page.
-            </li>
-        </ul>
-    </dd>
-</dl>
-<dl>        
-    <dt><a href="dump-competition.html" target="_blank" alt="Survival Guild - Competition Thank You Page">Competition Thank You Page</a></dt>
-    <dd>
-        The <em>Competition Thank You Page</em> is a single page made to thank the user for entering the Survival Guild competition.
-        <ul>
-            <li>
-                <em>Content</em> - The content is made up of <em>text</em> and an <em>image</em>, which thanks the user for entering the competition on the Competition Page.
-            </li>
-        </ul>
-    </dd>
-</dl>
-<dl>        
-    <dt><a href="404.html" target="_blank" alt="Survival Guild - 404 - Page Not Found">404 - Page Not Found</a></dt>
-    <dd>
-        The <em>404 Page</em> is a single page that appears when a user enters the wrong address into the address bar. It is made into a mini-game/story style to entertain the user before returning to the main site. Each page in the story has a different background image that relates to the text.
-        <ul>
-            <li>
-                <em>Content</em> - The content is made up of <em>text</em> and <em>links</em>, which allows the user to go directly to the home page or interact with the story.
-            </li>
-        </ul>
-    </dd>
-</dl>
-<dl>
-    <dt><a href="500.html" target="_blank" alt="Survival Guild - 500 - Internal Server Error">500 - Internal Server Error</a></dt>
-    <dd>
-        The <em>500 Page</em> is the same as the 404 page except for a different heading letting the user know there was an internal server error.
-    </dd>
-</dl>
-<dl>    
-    <dt><a href="bike.html" target="_blank" alt="Survival Guild - Page 2 of the Story">Page 2 of the Story</a></dt>
-    <dd>
-        The <em>Second Page</em> in the story is a single page that appears when a user clicks the link to continue the story. Each page in the story has a different background image that relates to the text.
-        <ul>
-            <li>
-                <em>Content</em> - The content is made up of <em>text</em> and <em>links</em>, which allows the user to go directly to the home page or continue interacting with the story.
-            </li>
-        </ul>
-    </dd>
-</dl>
-<dl>    
-    <dt><a href="house.html" target="_blank" alt="Survival Guild - Page 3 of the Story">Page 3 of the Story</a></dt>
-    <dd>
-        The <em>Third Page</em> in the story is a single page that appears when a user clicks the link to continue the story. Each page in the story has a different background image that relates to the text.
-        <ul>
-            <li>
-                <em>Content</em> - The content is made up of <em>text</em> and a single <em>link</em>, which allows the user to go directly to the home page.
-            </li>
-        </ul>
-    </dd>
-</dl>
+- The **Header** is across the top of the page and appears on each page for brand recognition.
+- The **Navigation Bar** appears within the header on all pages and is easy. It is then replaced by a hamburger menu.
+- The **Navigation Bar** collapses into a **Hamburger Menu** that, when clicked or tapped, opens a sidebar below the logo which shows the navigation options.
+- The **Footer** is 100% in width and stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab.
 
 ### Existing Features
-- **Header** - Appearing on almost every page for brand recognition.
-- **Navigation Bar** - Appearing on almost every page for a consistently easy and intuitive navigable system on larger screens.
-- **Hamburger Menu** - Appearing on almost every page for a consistently easy and intuitive navigable system on smaller screens.
-- **Social Media Icons** - Appearing on almost every page, the icons are appropriate representations of the Social Media platforms, linking users to various zombie related pages and the developers GitHub account. The icons appear in the centre of the footer.
-- **Youtube Embed** - Videos relating to the content on the Survival Tips Page and the Camp Setup Page have been embedded. These videos were embedded to emphasise the content and provide additional information relating to the content.
-- **Google Maps Embed** - iframe embedding of Google maps, showing the location of Northern Ireland's Secret Bunker was added to the Contact Page. The map is resized depending on the screen size to ensure the readability of the page on mobile devices.
-- **Contact Form** - A contact form is used in the Contact Page, to provide a point of contact for the user.
-- **404 page** - A 404 page providing a unique user experience in the form of a mini-game/story redirects the user to the home page or, if the user chooses, to additional story pages to continue the experience.
-- **500 page** - A 500 page providing a unique user experience in the form of a mini-game/story redirects the user to the home page or, if the user chooses, to additional story pages to continue the experience.
-- **[Survival Tips Page](survival-tips.html "Survival Guild - Survival Tips Page")** - Providing survival tips for the users to get an understanding of how to survive the apocalypse.
-- **[Camp Setup Page](camp-setup.html "Survival Guild - Camp Setup Page")** - Providing camp setup tips for the users to get an understanding of setting up a strong and safe camp during the apocalypse.
-- **[The Infected Page](infected.html "Survival Guild - The Infected Page")** - Providing information relating to the Infected and how to defend yourself against them.
-- **[Contact Page](contact.html "Survival Guild - Contact Page")** - Providing contact details for the Survival Guild, a map to Northern Ireland's Secret Bunker, and a form allowing the user to enter the Survival Guild.
-- **[Competition Page](competition.html "Survival Guild - Competition Page")** - Providing details for the Survival Guild's competition, a terms and conditions box, and a form allowing the user to enter the Survival Guild's competition.
+- **Social Media Icons** - Appearing on every page in the footer, the icons are appropriate representations of the Social Media platforms.
 
 ### Features to Implement in the future
 - **Helpful Links Page**
      - **Feature** - create a page with links to external sites where users can purchase the items discussed on the various pages.
      - **Reason for not featuring in this release** - Not enough time to create this page before the submission date.
-
-[Back to top](#Survival-Guild)
 
 ## Issues and Bugs 
 The developer ran into several issues during the development of the website, with the noteworthy ones listed below, along with solutions or ideas to implement in the future.
@@ -332,19 +166,18 @@ The developer ran into several issues during the development of the website, wit
      - Figma was used to create the concept art during the design phase of the project.
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
      - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
-
-[Back to top](#Survival-Guild)
     
-## Testing
-
 ## Testing 
-
 The site was tested for usability and navigation in Chrome, Firefox, Brave and Safari. The site was tested for responsiveness in all four browsers but more specifically in Chrome, using Developer Tools where it resulted in each page behaving as it should when screen sizes were changed.
-The site was then run through Lighthouse with particular focus on Accessibility where it scored 100%.
-
-![Lighthouse result](media/lighthouse.png)
-
-Apart from 'schoolboy' errors, no bugs were found during testing.
+The site was then run through Lighthouse with particular focus on Accessibility where it scored 100% on almost all pages:
+- Index page
+![Lighthouse results](assets/media/lighthouse-index.png)
+- Gallery page
+![Lighthouse results](assets/media/lighthouse-gallery.png)
+- Events page
+![Lighthouse results](assets/media/lighthouse-events.png)
+- Join page
+![Lighthouse results](assets/media/lighthouse-join.png)
 
 ### Validator Testing 
 
@@ -391,14 +224,6 @@ The developer consulted multiple sites in order to better understand the code th
 - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
 - [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
 
-[Back to top](#Survival-Guild)
-
 ## Acknowledgements
 
-- I would like to thank my family for their valued opinions and critic during the process of design and development.
-- I would like to thank my tutor, Kasia, and my mentor, Seun, for their invaluable help and guidance throughout the process.
-- Lastly, I would like to extend my deepest gratitude to the amazing people in Slack who helped me rigorously test every aspect of my site.
-
-[Back to top](#Survival-Guild)
-
-***
+- I would like to thank my my mentor, Koko, for her invaluable help and guidance throughout the process.
