@@ -470,27 +470,22 @@ h3 {
 
     #events h2 {
         margin-top: 15px;
+    }
 
-        /* Form */
-        #signup {
-            background-position: center;
-            position: relative;
-        }
+    /* Form */
+    #signup-form {
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
 
-        #signup-form {
-            position: absolute;
-            left: 10%;
-            top: 150px;
-        }
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
 
-        .text-input:hover {
-            border-color: #f16c6b;
-        }
-
-        .join-button:hover {
-            background-color: #252525;
-            color: #c4c5c6;
-        }
+    .join-button:hover {
+        background-color: #252525;
+        color: #c4c5c6;
     }
 }
 
@@ -536,11 +531,6 @@ h3 {
     }
 
     /* Form */
-    #signup {
-        background-position: center;
-        position: relative;
-    }
-
     #signup-form {
         max-width: 400px;
         position: absolute;

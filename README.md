@@ -34,7 +34,7 @@
 
 This website was made to provide information regarding a fictional motorcycle club based out of Dublin, Ireland. The target audience is the bike community of Ireland. 
 
-This website was made for the first of five Milestone projects required to complete the Diploma in Software development (eCommerce Applications) program at The Code Institute. 
+This website was made for the first of five Milestone projects required to complete the Diploma in Software development program at The Code Institute. 
 
 The main requirements of this project are to build a responsive and static front-end site to present useful information to users using all the technologies learned so far, namely HTML5 and CSS3. The site is to contain no less than three pages.
 
@@ -110,65 +110,13 @@ The information above was then organized in a hierarchical tree structure, a sit
 #### Skeleton
 Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of [Balsamiq](https://balsamiq.com/).
 
-
-<details>
-<summary>Balsamiq Wireframes</summary>
-    
-![Site Wireframes](assets/readme-files/wireframe-all-pages.png)
-
-</details>    
-
-
-In addition to this, concept art was made using [Figma] (https://www.figma.com/) to showcase the appearance of the home page. The concept art made some improvements upon the initial wireframes with regards to layout and features. but stayed mostly true to the original design.
-
-
-<details>
-<summary>Figma Concept Art</summary>
-
-![Homepage Detailed Wireframe](assets/readme-files/figma-homepage-mobile.PNG)
-![Homepage Detailed Wireframe](assets/readme-files/figma-homepage-desktop.PNG)
-
-</details>
-
-
-### Design
-#### Colour Scheme
-Using the [Colourmind](http://colormind.io/template/material-dashboard/) colour palette generator, the colour scheme chosen is based on the colour Hazard Yellow. This is complemented by a very light green colour named Snow Drift, a light green close to Spring Rain, a red colour close to Deep Chestnut, and a medium-dark shade of cyan. The deep checstnut colour's opacity was altered to produce a lighter shade for the background (#E2DDDC).
-
-This colour palette was chosen based on the colour Hazard Yellow, which is used on all hazardous materials and signs. The colour represents the danger presented by the infected individuals in the fictional story.
-
-All content text is charcoal-coloured {#383838) as this colour compliments the other colours on the site while still taking into account those who may be visually impaired.
-
-
-<details>
-<summary>Colour Palette</summary>
-
-![Colour Palette](assets/readme-files/colour-palette.png)
-
-</details>
-
-
-#### Typography
-The typography pairing used on the site are [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open), [Special Elite](https://fonts.google.com/specimen/Special+Elite?query=speci) and [Oswald](https://fonts.google.com/specimen/Oswald?query=osw), imported from [Google Fonts](https://fonts.google.com/). A backup of Sans-Serif had been applied in case of import failure.
-
-Special Elite was chosen for the title on the header, with a slogan underneath using the font Oswald. Oswald will be used for headings, with Open Sans being used for standard text.
-
-#### Imagery
-The selected imagery has been sourced and created from various sites. Fake news reports and Twitter feeds will feature on the home page in a news feed style setup. 
-
-Images of "The Infected" have been sourced from a freelance concept artist, [Soufiane Idrassi](https://www.artstation.com/cgsoufiane), through the website [Art Station](https://www.artstation.com/). 
-
-Various images, found in the [readme-files](assets/readme-files) folder, have been gathered for use across the site. These range from images of weapons to camping equipment.
-
-[Back to top](#Survival-Guild)
-
 ## Features
 ### Design Features
 Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
 - The **Header** is across the top of the page. It is not static as this would cover too much of the screen. A back-to-top button was implemented instead so users can access the navigation bar quickly.
 - The **Navigation Bar** is positioned directly below the header. The navigation bar is only used for screen sizes larger than 1200px. It is then replaced by a hamburger menu.
 - The **Navigation Bar** collapses into a **Hamburger Menu** that, when clicked or tapped, opens a sidebar which shows the navigation options.
-- The **Footer** is 100% in width and 40px in height. It stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab. Additionally, each social media link opens a zombie related link on each respective website; eg. the Facebook icon links to the Facebook page for [The Zombie Survival Guide book](https://www.facebook.com/TheZombieSurvivalGuide/).
+- The **Footer** is 100% in width and 40px in height. It stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab. Additionally, each social media link opens a zombie related link on each respective website; eg. the Faceb
 
 <dl>
     <dt><a href="index.html" target="_blank" alt="Survival Guild Home Page">Home Page</a></dt>
