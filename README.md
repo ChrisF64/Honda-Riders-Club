@@ -1,6 +1,6 @@
 # Honda Bikers Club
 
-![Survival Guild Mockup Images](assets/readme-files/survival-guild.PNG)
+![Honda Bikers Club Mockup Images](assets/media/responsive.png)
 
 [View the live project here](https://chrisf64.github.io/Honda-Riders-Club/index.html)
 
