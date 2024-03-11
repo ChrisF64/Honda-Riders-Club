@@ -44,11 +44,6 @@ The developer ran into several issues during the development of the website, wit
 
 **Double-click Ads Link Bug** - A bug was detected in the developer tools console. On the survival-tips.html and camp-setup.html pages, a bug appeared saying "Loading failed for the <script> with source 'http://static.doubleclick.net/instream/as-status.js'". After careful testing, the source of the bug was found to be the YouTube videos embedded in the page, which the developer was unable to alter to remove the bug. 
 
-<details>
-<summary>Background Bug</summary>
-    
-![Ad double-click Bug](assets/readme-files/double-click-bug.PNG)
-
 ## Technologies Used
 ### Main Languages Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
@@ -65,8 +60,6 @@ The developer ran into several issues during the development of the website, wit
      - GitHub was used to store the project after pushing
 - [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
      - Balsamiq was used to create the wireframes during the design phase of the project.
-- [Figma](https://www.figma.com/ "Link to Figma homepage")
-     - Figma was used to create the concept art during the design phase of the project.
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
      - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
     
