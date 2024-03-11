@@ -20,9 +20,11 @@
 <body>
     <!--Header-->
     <header>
+        <!-- Logo -->
         <a href="index.html">
             <h1 id="logo">Honda Riders Club</h1>
         </a>
+        <!-- Navigation Bar -->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
@@ -34,7 +36,7 @@
             </ul>
         </nav>
     </header>
-
+    <!-- Event section -->
     <main>
         <section id="events">
             <br>
@@ -98,11 +100,36 @@
                     <p>Meet up - 10:00</p>
                 </div>
             </div>
+            <!-- Back to top button -->
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            <!-- Script for back to top button functionality -->
+            <script>
+                // Get the button
+                let mybutton = document.getElementById("myBtn");
+
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function () { scrollFunction() };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                    } else {
+                        mybutton.style.display = "none";
+                    }
+                }
+
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
         </section>
     </main>
 
     <!--Footer-->
     <footer>
+        <!-- Social media links -->
         <ul id="social-networks">
             <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
                     aria-label="Visit our facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>

@@ -1,6 +1,6 @@
 # Honda Bikers Club
 
-![Honda Bikers Club Mockup Images](assets/media/responsive.png)
+![Honda Bikers Club Mockup Images](assets/readme-media/responsive.png)
 
 [View the live project here](https://chrisf64.github.io/Honda-Riders-Club/index.html)
 
@@ -83,20 +83,20 @@ Wireframes were made to showcase the appearance of the site pages while keeping 
 Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
 - The **Header** is across the top of the page and appears on each page for brand recognition.
 - The **Navigation Bar** appears within the header on all pages and is easy.<br>
-![Header-Navbar](assets/media/nav_bar.png)
+![Header-Navbar](assets/readme-media/nav_bar.png)
 - On smaller screen sizes, the **Navigation Bar** collapses into a **Hamburger Menu** that, when clicked or tapped, opens a sidebar below the logo which shows the navigation options.
 - The **Footer** is 100% in width and stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab.<br>
-![Footer](assets/media/footer.png)
+![Footer](assets/readme-media/footer.png)
 - The **Home** page contains a Hero image<br>
-![Hero](assets/media/landing_page.png) 
+![Hero](assets/readme-media/landing_page.png) 
 - The **Home** page also contains an About section, giving an overview of the club<br>
-![About](assets/media/about-us.png)
+![About](assets/readme-media/about-us.png)
 - The **Gallery** page contains photos of bike and events, all supplied by members<br>
-![Gallery](assets/media/gallery.png)
+![Gallery](assets/readme-media/gallery.png)
 - The **Events** page allows the user to browse through scheduled events<br>
-![Events](assets/media/events_page.png)
+![Events](assets/readme-media/events_page.png)
 - The **Join** page contains a form to allow the user to join the club, choose to subscribe to the newsletter either weekly, monthly, or not at all<br>
-![Join](assets/media/join_us.png)
+![Join](assets/readme-media/join_us.png)
 
 ### Existing Features
 - **Social Media Icons** - Appearing on every page in the footer, the icons are appropriate representations of the Social Media platforms.
@@ -130,13 +130,13 @@ The developer ran into several issues during the development of the website, wit
 The site was tested for usability and navigation in Chrome, Firefox, Brave and Safari. The site was tested for responsiveness in all four browsers but more specifically in Chrome, using Developer Tools where it resulted in each page behaving as it should when screen sizes were changed.
 The site was then run through Lighthouse with particular focus on Accessibility where it scored 100% on almost all pages:
 - Index page <br>
-![Lighthouse results](assets/media/lighthouse-index.png)
+![Lighthouse results](assets/readme-media/lighthouse-index.png)
 - Gallery page<br>
-![Lighthouse results](assets/media/lighthouse-gallery.png)
+![Lighthouse results](assets/readme-media/lighthouse-gallery.png)
 - Events page<br>
-![Lighthouse results](assets/media/lighthouse-events.png)
+![Lighthouse results](assets/readme-media/lighthouse-events.png)
 - Join page<br>
-![Lighthouse results](assets/media/lighthouse-join.png)
+![Lighthouse results](assets/readme-media/lighthouse-join.png)
 
 ### Validator Testing 
 - HTML

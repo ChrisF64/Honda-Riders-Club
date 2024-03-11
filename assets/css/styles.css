@@ -18,6 +18,7 @@ body {
     font-family: 'Barlow', sans-serif;
 }
 
+/* Headings */
 h1,
 h2,
 h3 {
@@ -56,6 +57,7 @@ header a {
     margin-bottom: 1em;
 }
 
+/* To show which page is active in nav bar */
 .active {
     font-weight: 800;
     text-transform: uppercase;
@@ -114,18 +116,21 @@ main {
     margin: 20px auto;
 }
 
+/* Index page heading */
 #welcome {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
 }
 
+/* Club headings */
 #club h3 {
     color: #252525;
     padding-top: 20px;
     font-size: 150%;
 }
 
+/* A little about us section */
 #about-us hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
@@ -162,35 +167,33 @@ main {
 .right-about-head p,
 .left-about-head p {
     font-size: large;
+    margin-bottom: 30px;
 }
 
-/* Timeline */
+/* Timeline container */
 #timeline-container {
     width: 400px;
     height: 700px;
     padding: 30px;
     margin: 0 auto;
     align-content: center;
+
 }
 
+/* Timeline image */
 #timeline-bg {
     background: url(../images/Timeline.png) no-repeat top center;
     height: 100%;
     margin-bottom: 20px;
     max-width: 360px;
     max-height: 797px;
+    margin: auto;
 }
-
 
 /* Gallery page */
-#gallery {
-    margin-top: 50px;
-}
-
-#gallery p {
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    font-size: 110%;
+#gallery h2 {
+    margin-left: 1em;
+    margin-top: 40px;
 }
 
 #photos img {
@@ -209,13 +212,16 @@ main {
     margin-top: 40px;
 }
 
+/* Events background image */
 #dates {
     background: url(../images/Cover-image.jpg) no-repeat center/cover;
     /* handles responisvity without media query */
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 68px;
 }
 
+/* Events */
 #dates div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
@@ -248,10 +254,11 @@ h3 {
     min-height: 610px;
 }
 
+/* Form block */
 #signup-form {
     max-width: 400px;
     color: #ffffff;
-    background-color: rgba(23, 36, 74, 0.6);
+    background-color: rgba(23, 36, 74, 0.9);
     padding: 30px;
     border-radius: 20px;
 }
@@ -282,7 +289,7 @@ h3 {
     justify-content: space-between;
 }
 
-
+/* Join button */
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -290,6 +297,7 @@ h3 {
     font-size: 100%;
     background-color: #c4c5c6;
     color: #252525;
+    cursor: pointer;
 }
 
 
@@ -307,30 +315,31 @@ h3 {
     width: 100%;
 }
 
+/* Social media links */
 #social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
 }
 
+/* On hover */
 #social-networks i:hover {
-    color: #ffffff;
+    color: #5122f8;
 }
 
 /* MEDIA QUERIES */
 
-
 /* For larger to medium screen size from 1200px and down */
 @media screen and (max-width: 1200px) {
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+    /* About us section */
     #about-us {
         width: 65%;
         height: 1500px;
         margin: 0 auto;
-    }
-
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
     }
 
     #left-about,
@@ -345,18 +354,18 @@ h3 {
         width: 100%;
         float: left;
         padding: 0;
+        margin: auto;
     }
 
     .left-about-head h3,
     .right-about-head h3 {
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     .left-about-head p,
     .right-about-head p {
-        text-align: center;
-        padding: 0 20px;
+        text-align: left;
         width: 100%;
         font-size: 150%;
     }
@@ -366,16 +375,22 @@ h3 {
         column-count: 3;
     }
 
+    #gallery h2 {
+        margin-top: 50px;
+    }
+
 }
 
 /* Media Query: Laptops and desktops (992px and down) */
 @media screen and (max-width: 992px) {
+    /* Nav bar */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
         border-top: 1px solid #3a3a3a;
         text-transform: uppercase;
     }
 
+    /* About us section */
     #about-us {
         width: 65%;
         height: 1500px;
@@ -397,13 +412,12 @@ h3 {
     .left-about-head h3,
     .right-about-head h3 {
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     .left-about-head p,
     .right-about-head p {
-        text-align: center;
-        padding: 0 20px;
+        text-align: left;
         font-size: 150%;
     }
 
@@ -435,6 +449,7 @@ h3 {
         margin: 0;
     }
 
+    /* About us section */
     #about-us {
         width: 90%;
         height: 1000px;
@@ -450,26 +465,44 @@ h3 {
     .left-about-head h3,
     .right-about-head h3 {
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     .left-about-head p,
     .right-about-head p {
-        text-align: center;
-        padding: 0 20px;
+        text-align: left;
     }
 
     /* Gallery */
-    #gallery {
-        margin-top: 20px;
-    }
-
     #photos {
         column-count: 1;
+        padding: 0px 0px 1000px;
     }
 
     #events h2 {
         margin-top: 15px;
+    }
+
+    /* Back to top button */
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 90px;
+        right: 30px;
+        z-index: 99;
+        font-size: 20px;
+        border: 1px #ffffff;
+        outline: none;
+        background-color: rgba(23, 36, 74, 0.7);
+        color: #ffffff;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+    }
+
+    #myBtn:hover {
+        background-color: #ffffff;
+        color: rgba(23, 36, 74, 0.7);
     }
 
     /* Form */
@@ -519,6 +552,7 @@ h3 {
         margin: 0 0.5rem;
     }
 
+    /* About us section */
     .left-about-head,
     .right-about-head {
         width: 100%;
@@ -530,7 +564,7 @@ h3 {
         column-count: 2;
     }
 
-    /* Form */
+    /* Join us form */
     #signup-form {
         max-width: 400px;
         position: absolute;
@@ -548,6 +582,34 @@ h3 {
     }
 }
 
+/* Media Query: Large or landscape phones (768px and down) */
+@media screen and (max-width: 768px) {
+    #photos {
+        column-count: 1;
+    }
+
+    /* Gallery */
+
+    #gallery h2 {
+        margin-top: 0px;
+    }
+
+    /* Join us section */
+    #join {
+        padding: 0;
+    }
+
+    #signup-form {
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        right: 0px;
+        left: 0px;
+        margin: auto;
+    }
+
+}
+
 /* Media Query: Large or landscape phones (390px and down) */
 @media screen and (max-width: 390px) {
     #photos {
@@ -557,10 +619,30 @@ h3 {
     /* Gallery */
     #gallery {
         margin-top: 50px;
+        margin-bottom: 68px;
     }
 
+    #gallery h2 {
+        margin-top: 0px;
+    }
+
+    /* Events section */
     #events h2 {
         margin-left: 1em;
         margin-top: 50px;
+    }
+
+    /* Join us form */
+    #join {
+        padding: 0;
+    }
+
+    #signup-form {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin: auto;
     }
 }
