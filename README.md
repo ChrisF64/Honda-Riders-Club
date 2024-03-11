@@ -20,7 +20,7 @@
      1. [Main Languages Used](#Main-Languages-Used)
      3. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 6. [Testing](#Testing)
-     1. [Testing.md](TESTING.md)
+     1. [Validator testing](#validator-testing)
 7. [Deployment](#Deployment)
      1. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
 8. [Credits](#Credits)
@@ -99,12 +99,7 @@ Using the information from the strategy plane, the identified required features 
 The information above was then organized in a hierarchical tree structure, a site map, showing how users can navigate through the site with ease and efficiency, with the following results:
 
 
-<details>
-<summary>Site Map</summary>
-
-![Site Map](assets/readme-files/sitemap.png)
-
-</details>
+![Site Map](assets/media/site-map.png)
 
 
 #### Skeleton
@@ -316,11 +311,7 @@ The developer ran into several issues during the development of the website, wit
 <summary>Background Bug</summary>
     
 ![Ad double-click Bug](assets/readme-files/double-click-bug.PNG)
-    
-</details>
-    
-[Back to top](#Survival-Guild)
-    
+
 ## Technologies Used
 ### Main Languages Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
@@ -346,7 +337,24 @@ The developer ran into several issues during the development of the website, wit
     
 ## Testing
 
-Testing information can be found in a separate testing [file](TESTING.md "Link to testing file")
+## Testing 
+
+The site was tested for usability and navigation in Chrome, Firefox, Brave and Safari. The site was tested for responsiveness in all four browsers but more specifically in Chrome, using Developer Tools where it resulted in each page behaving as it should when screen sizes were changed.
+The site was then run through Lighthouse with particular focus on Accessibility where it scored 100%.
+
+![Lighthouse result](media/lighthouse.png)
+
+Apart from 'schoolboy' errors, no bugs were found during testing.
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+
+- CSS
+  - One error was initially found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  The error was triggered by a stray curly bracket and was tidied up.
+
 
 ## Deployment
 
