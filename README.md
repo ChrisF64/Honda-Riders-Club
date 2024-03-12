@@ -10,6 +10,21 @@
     1.  [Ideal Users](#ideal-users)
     2.  [User Stories](#user-stories)  
     3.  [Development Planes](#Development-Planes)
+    4.  [Design](#design)
+3.  [Features](#features)
+    1.  [Design Features](#design-features)
+    2.  [Existing Features](#existing-features)
+4.  [Issues and Bugs](#issues-and-bugs)
+5.  [Technologies Used](#technologies-used)
+    1.  [Main Languages Used](#main-languages-used)
+    2.  [Fremeworks, Libraries and Programs Used](#frameworks-libraries--programs-used)
+6.  [Testing](#testing)
+7.  [Deployment](#deployment)
+    1.  [Deploying on GitHub Pages](#deploying-on-github-pages)
+8.  [Credits](#credits)
+    1.  [Media](#media)
+    2.  [Code](#code)
+9.  [Acknowledgements](#acknowledgements)
 
 ## Introduction
 This website was made to provide information regarding a fictional motorcycle club based out of Dublin, Ireland. The target audience is the bike community of Ireland. 
@@ -74,12 +89,18 @@ Using the information from the strategy plane, the identified required features 
 #### Structure
 The information above was then organized in a hierarchical tree structure, a site map, showing how users can navigate through the site with ease and efficiency, with the following results:
 
-![Site Map](assets/media/site-map.png)
+![Site Map](assets/readme-media/site-map.png)
 
 #### Skeleton
 Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of [Balsamiq](https://balsamiq.com/).
 
-![Wireframe](assets/media/Wireframe.png)
+![Wireframe](assets/readme-media/Wireframe.png)
+
+[Back to top](#honda-bikers-club)
+
+## Design
+
+[Back to top](#honda-bikers-club)
 
 ## Features
 ### Design Features
@@ -104,6 +125,8 @@ Each page within the site has a consistent and responsive navigation system. The
 ### Existing Features
 - **Social Media Icons** - Appearing on every page in the footer, the icons are appropriate representations of the Social Media platforms.
 
+[Back to top](#honda-bikers-club)
+
 ## Issues and Bugs 
 The developer ran into several issues during the development of the website, with the noteworthy ones listed below:
 - Header and Nav bar became unresponsive while formatting index page, this was due to code being moved and was easily discovered and corrected using dev tools in Chrome.
@@ -111,7 +134,7 @@ The developer ran into several issues during the development of the website, wit
 - Similarly, a stray curly bracket generated an error when validating CSS stylesheet in [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ## Technologies Used
-### Languages Used
+### Main Languages Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
 
@@ -128,7 +151,9 @@ The developer ran into several issues during the development of the website, wit
      - Balsamiq was used to create the wireframes during the design phase of the project.
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
      - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
-    
+
+[Back to top](#honda-bikers-club)
+
 ## Testing 
 The site was tested for usability and navigation in Chrome, Firefox, Brave and Safari. The site was tested for responsiveness in all four browsers but more specifically in Chrome, using Developer Tools where it resulted in each page behaving as it should when screen sizes were changed.
 The site was then run through Lighthouse with particular focus on Accessibility where it scored 100% on almost all pages:
@@ -149,6 +174,7 @@ The site was then run through Lighthouse with particular focus on Accessibility 
   - One error was initially found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
   The error was triggered by a stray curly bracket and was tidied up.
 
+[Back to top](#honda-bikers-club)
 
 ## Deployment
 This project was developed using [GitPod](https://www.gitpod.io/ "Link to GitPod site"), which was then committed and pushed to GitHub using the GitPod terminal.
@@ -175,3 +201,5 @@ The developer consulted multiple sites in order to better understand the code th
 
 ## Acknowledgements
 - I want to thank my mentor Koko, for her invaluable help and guidance.
+
+[Back to top](#honda-bikers-club)
