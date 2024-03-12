@@ -4,6 +4,10 @@
 
 [View the live project here](https://chrisf64.github.io/Honda-Riders-Club/index.html)
 
+## Table of Contents
+1. [Introduction](#Introduction)
+2. [UX](#UX)
+
 ## Introduction
 This website was made to provide information regarding a fictional motorcycle club based out of Dublin, Ireland. The target audience is the bike community of Ireland. 
 
