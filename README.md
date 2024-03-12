@@ -5,8 +5,11 @@
 [View the live project here](https://chrisf64.github.io/Honda-Riders-Club/index.html)
 
 ## Table of Contents
-1. [Introduction](#Introduction)
-2. [UX](#UX)
+1.  [Introduction](#Introduction)
+2.  [UX](#UX)
+    1.  [Ideal Users](#ideal-users)
+    2.  [User Stories](#user-stories)  
+    3.  [Development Planes](#Development-Planes)
 
 ## Introduction
 This website was made to provide information regarding a fictional motorcycle club based out of Dublin, Ireland. The target audience is the bike community of Ireland. 
@@ -18,20 +21,18 @@ The main requirements of this project are to build a responsive and static front
 ## UX
 ### Ideal Users
 The ideal user for this website is:
-* Current user
-* New user
 * Experienced rider
 * New rider
 
 ### User-Stories
-#### Current User Goals
-1. As a current user, I want to see regular updates to the events page.
-2. As a current user, I want to easily navigate through the site and access the information I require with ease.
-3. As a current user, I want to easily navigate to content I have previously viewed within a small number of steps.
+#### Experienced Rider Goals
+1. As an experienced rider, I want to see regular updates to the events page.
+2. As an experienced rider, I want to easily navigate through the site and access the information I require with ease.
+3. As an experienced rider, I want to easily navigate to content I have previously viewed within a small number of steps.
 
-#### New User Goals
-1. As a new user, I want to easily navigate the entire site intuitively. 
-2. As a new user, I want the information I seek to be easily accessible and relevant.
+#### New Rider Goals
+1. As a new rider, I want to easily navigate the entire site intuitively. 
+2. As a new rider, I want the information I seek to be easily accessible and relevant.
 
 ### Development-Planes
 To create a website that answers the above user stories and identifies the functionality of the site. This includes an introduction, an events page, current member photos and a join us page.
@@ -39,8 +40,6 @@ To create a website that answers the above user stories and identifies the funct
 #### Strategy
 Strategy incorporates user needs as well as product objectives. This website will focus on the following target audience, divided into three main categories:
 - **Roles:**
-    - Current users
-    - New users
     - Experienced riders
     - New riders
 
@@ -49,7 +48,7 @@ Strategy incorporates user needs as well as product objectives. This website wil
     - Irish Honda riders or Honda riders residing in Ireland
     - Beginner to experienced Honda riders
 
-The website needs to enable the **user** to:
+The website needs to enable the **rider** to:
 - Retrieve the desired information:
     - How to join the club
     - Upcoming events
