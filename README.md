@@ -227,7 +227,7 @@ The site was then run through Lighthouse with particular focus on Accessibility 
     ![Lighthouse results](assets/readme-media/lighthouse-join.png)
 
 ### User testing 
-My wife, family and and mentor Koko reviewed the site and documentation and flagged any bugs and/or user experience issues. Their helpful advice throughout the process led to a few small UX changes in order to create a better experience. 
+My wife, family and mentor Koko reviewed the site and documentation and flagged any bugs and/or user experience issues. Their helpful advice throughout the process led to a few small UX changes in order to create a better experience. 
 
 [Back to top](#honda-bikers-club)
 
