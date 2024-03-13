@@ -5,11 +5,11 @@
 [View the live project here](https://chrisf64.github.io/Honda-Riders-Club/index.html)
 
 ## Table of Contents
-1.  [Introduction](#Introduction)
-2.  [UX](#UX)
+1.  [Introduction](#introduction)
+2.  [UX](#ux)
     1.  [Ideal Users](#ideal-users)
     2.  [User Stories](#user-stories)  
-    3.  [Development Planes](#Development-Planes)
+    3.  [Development Planes](#development-planes)
     4.  [Design](#design)
 3.  [Features](#features)
     1.  [Design Features](#design-features)
@@ -89,11 +89,7 @@ Using the information from the strategy plane, the identified required features 
 #### Structure
 The information above was then organized in a hierarchical tree structure, a site map, showing how users can navigate through the site with ease and efficiency, with the following results:
 
-<details>
-<summary>Site Map</summary>
-
 ![Site Map](assets/readme-media/site-map.png)
-</details>
 
 #### Skeleton
 Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of [Balsamiq](https://balsamiq.com/).
@@ -103,6 +99,14 @@ Wireframes were made to showcase the appearance of the site pages while keeping 
 [Back to top](#honda-bikers-club)
 
 ## Design
+#### Colour Scheme
+The colour scheme chosen is based on the metal colours found on almost all motorcycles - steel grey (#c4c5c6). This is complimented with a charcoal colour (#3a3a3a) used for all text. A dark blue colour (RGB 23, 36, 74) is used for the Join Us form; this colour works well with the overall background image used on the Join page.
+
+### Typography
+The font used throughout the site is [Barlow](https://fonts.google.com/specimen/Barlow). A backup of sans-serif has been applied in case of font import failure.
+
+### Imagery
+Timeline image on index page was created by the developer. All other images used throughout the site were sourced from [Pexels.com](https://www.pexels.com/).
 
 [Back to top](#honda-bikers-club)
 
@@ -159,24 +163,71 @@ The developer ran into several issues during the development of the website, wit
 [Back to top](#honda-bikers-club)
 
 ## Testing 
-The site was tested for usability and navigation in Chrome, Firefox, Brave and Safari. The site was tested for responsiveness in all four browsers but more specifically in Chrome, using Developer Tools where it resulted in each page behaving as it should when screen sizes were changed.
-The site was then run through Lighthouse with particular focus on Accessibility where it scored 100% on almost all pages:
-- Index page <br>
-![Lighthouse results](assets/readme-media/lighthouse-index.png)
-- Gallery page<br>
-![Lighthouse results](assets/readme-media/lighthouse-gallery.png)
-- Events page<br>
-![Lighthouse results](assets/readme-media/lighthouse-events.png)
-- Join page<br>
-![Lighthouse results](assets/readme-media/lighthouse-join.png)
+### Common Elements Testing
+Manual testing was conducted on the following elements that appear on every page:
+- Hovering over the Nav Bar page names will trigger `hover` effect, highlighting the icon for the user.     
+- Clicking on the Navigation Bar's links will bring the user to the specified page.
+- Clicking on the Social Media links will open a new tab
 
-### Validator Testing 
+### Home Page
+Manual testing was conducted on the following elements of the [Home Page](index.html):
+- The responsiveness of the Home page
+     
+### Gallery Page
+Manual testing was conducted on the following elements of the [Gallery Page](rider-gallery.html):
+
+- All images load quickly with sharp resolution     
+- The responsiveness of the Gallery page
+     
+### Events Page
+Manual testing was conducted on the following elements of the [Events Page](events.html):
+
+- The page loads quickly and is easily read
+- The responsiveness of the Camp Setup page
+     
+### Join Page
+Manual testing was conducted on the following elements of the [Join Page](join-us.html):
+
+- When filling out the contact form, the user must complete all fields, apart from 'Nickname' (optional) field, before submitting. 
+- Hovering over the submit button will trigger `hover` effect, highlighting the button for the user.
+- The responsiveness of the Competition page
+
+### Code Validation
+
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 
 - CSS
   - One error was initially found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
   The error was triggered by a stray curly bracket and was tidied up.
+
+### Browser Validation
+- Chrome 
+- Edge
+- Opera
+- Firefox
+
+The site was tested for responsiveness in all four browsers but more specifically in Chrome, using Developer Tools where it resulted in each page behaving as it should when screen sizes were changed.
+The site was then run through Lighthouse with particular focus on Accessibility where it scored 100% on almost all pages:
+
+- Index page
+
+    ![Lighthouse results](assets/readme-media/lighthouse-index.png)
+
+- Gallery page
+
+    ![Lighthouse results](assets/readme-media/lighthouse-gallery.png)
+
+- Events page
+
+    ![Lighthouse results](assets/readme-media/lighthouse-events.png)
+
+- Join page
+
+    ![Lighthouse results](assets/readme-media/lighthouse-join.png)
+
+### User testing 
+My wife, family and and mentor Koko reviewed the site and documentation and flagged any bugs and/or user experience issues. Their helpful advice throughout the process led to a few small UX changes in order to create a better experience. 
 
 [Back to top](#honda-bikers-club)
 
